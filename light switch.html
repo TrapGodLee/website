@@ -1,0 +1,23 @@
+<!DOCTYPE HTML>
+<HTML>
+    <head>
+        <meta charset="UTF-8">
+        <title>light bulb</title>
+        <link href="CSS/bulb.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+        <img id="imag"   src="lamp_uit.png">
+        <button onclick="on()">Licht aan</button>
+        <button onclick="off()">Licht uit</button>
+    </body>
+
+    <script>
+        function on(){
+        document.getElementById("imag").src="lamp_aan.png";
+        }
+
+        function off(){
+        document.getElementById("imag").src="lamp_uit.png";
+        }
+    </script>
+</HTML>
